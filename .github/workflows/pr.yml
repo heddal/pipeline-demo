@@ -19,7 +19,7 @@ jobs:
         id: slack
         with:
           webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
-          text: "PR ready!:smile: Please review it :pray:"
+          text: "We have a PR!:smirk: Is it great? :pugpls:"
           color: info # Slack already-supported color
 
 
