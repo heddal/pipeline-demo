@@ -41,6 +41,11 @@ jobs:
             exit 0
           fi
           exit 1
+          
+
+      - name: test tag
+        run:
+          echo "we are testing tag"
  # ----- DO NOT UNCOMMENT THIS, ONLY FOR EXAMPLE -----
  #       NB: Note that this also requires a Dockerfile etc which this repository is missing.
  #       run: |
